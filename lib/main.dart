@@ -8,10 +8,8 @@ void main() => runApp(new BarCodeScanner());
 
 class BarCodeScanner extends StatefulWidget {
 
-
   @override
   _BarCodeScannerState createState() => _BarCodeScannerState();
-
 }
 
 
@@ -50,7 +48,8 @@ class _BarCodeScannerState extends State<BarCodeScanner> {
         child: new Scaffold(
           appBar: new AppBar(
 
-            title: new Text('Inventory App'),
+//            title: new Text('Inventory App'),
+              title: new Text('Barcode Scanner Configuration'),
               centerTitle: true
           ),
 
