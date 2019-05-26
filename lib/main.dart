@@ -9,21 +9,14 @@ import 'ocr_text_detail.dart';
 
 void main() => runApp(new BarCodeScanner());
 
-
-
-
 class BarCodeScanner extends StatefulWidget {
-
-
 
 
   @override
   _BarCodeScannerState createState() => _BarCodeScannerState();
+
+
 }
-
-
-
-
 
 
 class _BarCodeScannerState extends State<BarCodeScanner> {
